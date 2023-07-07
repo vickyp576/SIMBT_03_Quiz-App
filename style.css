@@ -1,0 +1,56 @@
+body {
+  background-color: azure;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  margin-bottom: 5%;
+  color: blue;
+  font-size: 50px;
+}
+
+.hide {
+  display: none;
+}
+
+#options {
+  margin: 2% 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#options input {
+  display: none;
+}
+
+#options label {
+  width: 250px;
+  height: 25px;
+  display: inline-block;
+  margin: 5px;
+  padding: 20px 20px;
+  background-color: rgba(25, 210, 223, 0.564);
+  cursor: pointer;
+  border-radius: 5%;
+  font-size: larger;
+  border-color: aqua;
+}
+
+#options input:checked + label {
+  background-color: rgb(128, 239, 17);
+}
+
+button {
+  width: 100px;
+  padding: 10px 10px;
+  background-color: rgba(25, 210, 223, 0.564);
+  cursor: pointer;
+  border-radius: 8%;
+  border-color: aqua;
+  font-size: large;
+}
+#score {
+  font-size: large;
+}
